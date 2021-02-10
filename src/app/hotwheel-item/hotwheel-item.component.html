@@ -1,0 +1,9 @@
+<figure class="figure">
+  <img src="{{hotwheel.image}}" class="figure-img img-fluid rounded">
+  <figcaption class="figure-caption">
+    <h5><a [routerLink]="['/hotwheels', hotwheel.id]">{{hotwheel.nombre}}</a>
+      <span>{{hotwheel.price | currency}}</span>
+    </h5>
+    <p>{{hotwheel.description}}</p>
+  </figcaption>
+</figure>
